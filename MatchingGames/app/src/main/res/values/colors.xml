@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primaryColor">#D278E2</color>
+    <color name="primaryLightColor">#E3C3EF</color>
+    <color name="primaryDarkColor">#550975</color>
+    <color name="secondaryColor">#7128B8</color>
+    <color name="secondaryLightColor">#8087E4</color>
+    <color name="secondaryDarkColor">#4622AA</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#ffffff</color>
+
+    <!-- For colored text; default is black/dark-gray (Day) or
+white/light-gray (Night) -->
+    <color name="primaryTextColoredColor">@color/primaryDarkColor</color>
+    <color name="secondaryTextColoredColor">@color/primaryColor</color>
+    <!-- Matching colored background -->
+    <color name="backgroundColoredColor">@color/primaryLightColor</color>
+
+    <color name="backgroundDefaultColor">@color/cardview_light_background</color>
+    <color name="innerCardBackgroundColor">@color/backgroundDefaultColor</color>
+</resources>

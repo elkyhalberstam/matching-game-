@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/activity_main">
+
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bottom_bar"
+        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_gravity="bottom"
+        app:fabAlignmentMode="center"
+        app:fabAnimationMode="slide"
+        tools:ignore="BottomAppBar">
+
+        <LinearLayout style="@style/statusBarStyle">
+
+            <TextView
+                android:id="@+id/matches"
+                style="@style/textViewStyle.status"
+                android:paddingEnd="@dimen/activity_horizontal_margin_double"
+                android:paddingRight="@dimen/activity_horizontal_margin_double"
+                android:text="@string/number_of_matches" />
+            <TextView
+            android:id="@+id/remaining"
+            style="@style/textViewStyle.status"
+            android:paddingEnd="@dimen/activity_horizontal_margin_double"
+            android:paddingRight="@dimen/activity_horizontal_margin_double"
+            android:text="@string/number_of_attempts_remaining" />
+
+        </LinearLayout>
+    </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom|center_horizontal"
+        android:contentDescription="@string/fab"
+        app:layout_anchor="@id/bottom_bar"
+        app:layout_anchorGravity="center"
+        app:srcCompat="@android:drawable/ic_dialog_info"
+        app:fabSize="mini"/>
+
+</merge>

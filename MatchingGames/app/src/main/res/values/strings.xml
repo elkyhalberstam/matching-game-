@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MatchingGame</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="info_"> Info </string>
+    <string name="info_text">To play the game press new game and select the 2 cards you would like to match. Click again when you are done with that set, and repeat. Enjoy!</string>
+
+    <string name="about">About</string>
+    <string name="about_text">This is a Matching Game created by Racheli R. and Elky H, as a term project for this Android App Development course (MCON 255), during the Summer of 2022.</string>
+
+    <string name="number_of_matches">Number of Matches:</string>
+    <string name="number_of_attempts_remaining">Number of Attempts Remaining:</string>
+
+    <string name="lost">Lost</string>
+    <string name="lost_message">Game Over. Click New Game to play again.</string>
+
+    <string name="win">Win</string>
+    <string name="win_message">You Win! Click New Game to play again.</string>
+
+    <string name="games_settings">Settings</string>
+    <!-- Preference Titles -->
+    <string name="display_header">Display</string>
+    <string name="game_header">Game</string>
+
+    <!-- Preferences -->
+    <string name="night_mode_key">Night Mode</string>
+    <string name="night_mode_title">Dark/Night Mode</string>
+    <string name="night_mode_off">Never use Night/Dark Mode</string>
+    <string name="night_mode_on">Use Night/Dark Mode (unless disabled in OS Settings)</string>
+    <string name="win_on_last_pick_key">Win on Last Pick</string>
+    <string name="win_on_last_pick_title">Win on Last Pick</string>
+    <string name="win_on_last_pick_on">Last player to pick is not the winner</string>
+    <string name="win_on_last_pick_off">Last player to pick is the winner</string>
+    <string name="auto_save_key">Auto-Save</string>
+    <string name="auto_save_off">On exit, the game in progress will not be saved</string>
+    <string name="auto_save_on">On exit, the game in progress will be saved</string>
+    <string name="auto_save_title">Auto-Save Game on Exit</string>
+    <string name="fab">FAB</string>
+    <string name="settings">Settings</string>
+    <string name="new_game">New Game</string>
+    <string name="about_">About</string>
+    <string name="settings_">Settings</string>
+
+</resources>
